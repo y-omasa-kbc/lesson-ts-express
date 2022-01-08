@@ -1,0 +1,16 @@
+<h1>Page3 In</h1>
+<p>POSTの受取と表示（ユーザー入力）</p>
+<p>
+  <!--actionが空文字なので、自分と同じアドレスに送る。-->
+  <!--ブラウザから見れば、page3inもpage3outも同じアドレスになっている-->
+  <!--（サーバー側でアクセスメソッドで表示を切り替えている）-->
+  <form action="" method="post">
+    <dl>
+        <dt>メッセージ</dt>
+        <dd>
+            <input type="text" name="message" placeholder="メッセージの内容">
+        </dd>
+        <p class="submit"><input type="submit" name="submit" value="追加"></p>
+    </dl>
+  </form>    
+</p>

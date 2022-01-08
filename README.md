@@ -1,6 +1,15 @@
 # lesson-ts-express
 
 ## 各コミットについて
+### 003: Receiving a value sent by a form using a POST method
+フォームからPOSTメソッドで送られた値を受け取るサンプルコード
+
+実行方法
+```
+npx ts-node src/app.ts
+```
+入力画面 http://localhost:3000/page3
+
 ### 002: Send Sinple Variable, Ojbect Instance, Array of Numbers to EJS
 EJSテンプレートエンジンに変数、オブジェクト、配列を渡すサンプルコード
 
